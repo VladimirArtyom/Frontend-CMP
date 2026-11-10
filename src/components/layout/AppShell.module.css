@@ -1,0 +1,38 @@
+.stage {
+  display: flex;
+  justify-content: center;
+  min-height: 100dvh;
+  background: var(--chalk);
+}
+
+.device {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--device-width);
+  min-height: 100dvh;
+  background: var(--role-surface);
+  color: #fff;
+}
+
+.home {
+  --role-surface: var(--ink);
+}
+.visitor {
+  --role-surface: var(--red);
+}
+.judge {
+  --role-surface: var(--navy);
+}
+@media (min-width: 40rem) {
+  .stage {
+    align-items: center;
+    padding: 2rem;
+  }
+  .device {
+    min-height: 44rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0 30px 60px -20px rgba(11, 16, 48, 0.35);
+  }
+}

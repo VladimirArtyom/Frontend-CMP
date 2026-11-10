@@ -1,0 +1,10 @@
+.chip {
+    display: inline-flex;
+    align-self: flex-start;
+    max-width: 100%;
+    padding: 0.35rem 0.85rem; 
+    border-radius: var(--radius-full);
+    background: var(--chalk);
+    font-weight: 600;
+    overflow-wrap: anywhere
+}

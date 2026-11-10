@@ -1,0 +1,29 @@
+.steps {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem var(--gutter) 0;
+}
+
+.bar {
+  display: block;
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.3);
+  transition: background-color var(--transition);
+}
+
+.done .bar{
+    background: #fff
+}
+
+.label {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  opacity: 0.75;
+}
+.current .label {
+  font-weight: 700;
+  opacity: 1;
+}

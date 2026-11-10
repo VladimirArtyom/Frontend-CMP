@@ -1,0 +1,16 @@
+.linkButton{
+    min-height: 2.75rem;
+    padding: 0 0.5rem;
+    border: 0;
+    color: var(--ink-soft);
+    background:none;
+    font-size:0.9rem;
+    font-weight:600;
+    text-decoration: none;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+
+.linkButton:hover{
+    color: var(--ink);
+}

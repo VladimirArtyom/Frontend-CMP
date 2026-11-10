@@ -1,0 +1,31 @@
+:root {
+  /* Core palette */
+  --ink: #0b1030;
+  --ink-soft: #3a4163;
+  --ink-muted: #666c8c;
+  --chalk: #eef0f7;
+  --paper: #ffffff;
+  --line: #dadeeb;
+  --red: #e4002b;
+  --red-press: #bf0024;
+  --navy: #1b2470;
+  --sun: #ffd43b;
+
+  /* Fonts (load via Google Fonts, see README) */
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Shape */
+  --radius-sm: 0.625rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-sheet: 1.75rem;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --device-width: 30rem;
+  --gutter: 1.5rem;
+  --gap: 1.25rem;
+
+  --transition: 140ms ease;
+}
